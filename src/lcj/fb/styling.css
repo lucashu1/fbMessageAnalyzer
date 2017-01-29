@@ -1,0 +1,11 @@
+.chart-plot-background {
+    -fx-background-color: #ffffff;
+}
+
+.root{
+	-fx-background-color: #ffffff;
+}
+
+.default-color0.chart-bar{
+	-fx-bar-fill: #3B579D;
+}
