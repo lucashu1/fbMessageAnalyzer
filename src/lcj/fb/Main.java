@@ -35,7 +35,7 @@ public class Main {
     	         }
     	     }
     	 } catch (Exception e) {
-    		 System.out.println("THERE WAS A PROBLEM");
+    		 System.out.println("THERE WAS A PROBLEM: " + e);
     	 }
 		
     }

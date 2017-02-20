@@ -345,8 +345,6 @@ public class Display extends JPanel implements ActionListener, KeyListener, Mous
     	statsCard.add(fourth, cStats);
     	cStats.gridy=9;
     	statsCard.add(fifth, cStats);
-    	
-    	
     }
     
     public void addPersonSelectionComponents(){
@@ -500,7 +498,6 @@ public class Display extends JPanel implements ActionListener, KeyListener, Mous
     	JScrollPane scrolly = new JScrollPane(currentMessage);
     	scrolly.setPreferredSize(new Dimension(300, 300));
     	statsPersonCard.add(scrolly, cFix);
-
     }
    
     public Scene createUsageByHourScene(){
@@ -919,7 +916,6 @@ public class Display extends JPanel implements ActionListener, KeyListener, Mous
         	wordTextField.setText(selectedWordDefault);
         	CardLayout cards = (CardLayout)(overallCards.getLayout());
         	cards.show(overallCards, e.getActionCommand());
-        	
         }
     }
 
@@ -977,7 +973,6 @@ public class Display extends JPanel implements ActionListener, KeyListener, Mous
 	    		}
 	    	}
 		}
-		
 	}
     
     public ArrayList<String> makeBlacklist(String words){
